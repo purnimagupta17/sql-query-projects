@@ -61,3 +61,14 @@ WHERE YEAR=1970;
 
 
 
+#13 SQL query to find the Nobel Prize winner in ‘Literature’ for 1970
+
+SELECT WINNER
+FROM nobel_win
+WHERE SUBJECT='Literature' 
+AND YEAR=1971;
+
+
+
+
+
