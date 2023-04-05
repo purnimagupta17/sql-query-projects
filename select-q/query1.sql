@@ -70,5 +70,25 @@ AND YEAR=1971;
 
 
 
+#14 SQL query to find the Nobel Prize winners in the field of ‘Physics’ since 1950. Return winner.
+
+SELECT WINNER
+FROM nobel_win
+WHERE SUBJECT='Physics' 
+AND YEAR>=1950;
+
+#15 write a SQL query to find the Nobel Prize winners in ‘Chemistry’ between the years 1965 and 1975. 
+#Begin and end values are included. Return year, subject, winner, and country.  
+
+SELECT YEAR, SUBJECT, WINNER, COUNTRY
+FROM nobel_win
+WHERE SUBJECT='Chemistry' 
+AND YEAR>=1965 AND YEAR<=1975;
+
+
+
+
+
+
 
 
